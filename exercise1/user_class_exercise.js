@@ -11,8 +11,9 @@ User.prototype.compare = function(other_user) {
     return other_user.name + " is older than " + this.name;
   }
   return "They have equal ages";
-}
+};
 
 var user = new User("Apekshit", 22);
 var other_user = new User("Rajneesh", 67);
 alert(user.compare(other_user));
+
