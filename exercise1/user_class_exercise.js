@@ -16,3 +16,4 @@ User.prototype.compare = function(other_user) {
 var user = new User("Apekshit", 22);
 var other_user = new User("Rajneesh", 67);
 alert(user.compare(other_user));
+
